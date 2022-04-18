@@ -4,7 +4,8 @@
   "info": {
     "singularName": "video",
     "pluralName": "videos",
-    "displayName": "Video"
+    "displayName": "Video",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,6 +23,12 @@
     },
     "slug": {
       "type": "uid"
+    },
+    "description": {
+      "type": "text"
+    },
+    "thumbnail": {
+      "type": "text"
     }
   }
 }
